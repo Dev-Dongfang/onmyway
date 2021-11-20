@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/resource/images/head_icon180.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/resource/images/head_icon180.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/resource/images/head_icon32.jpg">
+  <link rel="mask-icon" href="/resource/images/head_icon180.jpg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"readingnote.weidongfang.online","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="我个人对金融和投资还是比较感兴趣的，时不时的都会在金融类新闻上看到：”人民币汇率大涨600点”、“人民币汇率破7”等等。汇率到底是什么东西？到底是谁在控制着汇率的升降？汇率的变化对我们普通人有什么影响？带着这些问题，我翻开了《国际金融新编》。 作为一本普通高校规划的教材，这本书中的干货还是蛮多的，第一次读并不能完全理解其中的方方面面，但是对于笔者来说，基本能够解决笔者心中的疑惑。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《国际金融新编》——笔记">
+<meta property="og:url" content="http://readingnote.weidongfang.online/posts/2020-03/31239.html">
+<meta property="og:site_name" content="读书读书再读书">
+<meta property="og:description" content="我个人对金融和投资还是比较感兴趣的，时不时的都会在金融类新闻上看到：”人民币汇率大涨600点”、“人民币汇率破7”等等。汇率到底是什么东西？到底是谁在控制着汇率的升降？汇率的变化对我们普通人有什么影响？带着这些问题，我翻开了《国际金融新编》。 作为一本普通高校规划的教材，这本书中的干货还是蛮多的，第一次读并不能完全理解其中的方方面面，但是对于笔者来说，基本能够解决笔者心中的疑惑。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-04T08:36:22.000Z">
+<meta property="article:modified_time" content="2020-06-07T04:11:07.000Z">
+<meta property="article:author" content="韦东方">
+<meta property="article:tag" content="Dongfang">
+<meta property="article:tag" content="读书笔记">
+<meta property="article:tag" content="读书分享">
+<meta property="article:tag" content="读后感">
+<meta property="article:tag" content="历史">
+<meta property="article:tag" content="文学">
+<meta property="article:tag" content="经济">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://readingnote.weidongfang.online/posts/2020-03/31239.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>《国际金融新编》——笔记 | 读书读书再读书</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9973e9eaf1485d0719cd19d7436e2fea";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">读书读书再读书</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Beat your self.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">6</span></a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://readingnote.weidongfang.online/posts/2020-03/31239.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/resource/images/head_icon180.jpg">
+      <meta itemprop="name" content="韦东方">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="读书读书再读书">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          《国际金融新编》——笔记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-03-04 16:36:22" itemprop="dateCreated datePublished" datetime="2020-03-04T16:36:22+08:00">2020-03-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-07 12:11:07" itemprop="dateModified" datetime="2020-06-07T12:11:07+08:00">2020-06-07</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/2020-03/31239.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/2020-03/31239.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<p>我个人对金融和投资还是比较感兴趣的，时不时的都会在金融类新闻上看到：”人民币汇率大涨600点”、“人民币汇率破7”等等。汇率到底是什么东西？到底是谁在控制着汇率的升降？汇率的变化对我们普通人有什么影响？带着这些问题，我翻开了《国际金融新编》。</p>
+<p>作为一本普通高校规划的教材，这本书中的干货还是蛮多的，第一次读并不能完全理解其中的方方面面，但是对于笔者来说，基本能够解决笔者心中的疑惑。</p>
+</blockquote>
+<a id="more"></a>
+
+<p>经济开放使得国内的需求在货币的媒介下可以由国外提供的产品来满足，而国内的供给也可以在货币的媒介下输出到外国供外国居民消费，这使得原本封闭环境下的<strong>内部均衡</strong>发生了深刻的变化。</p>
+<p>经济政策和市场力量，一方面要分别维持内部均衡和外部平衡；另一方面还要调节内部均衡和外部平衡之间的矛盾。</p>
+<p>国际金融学关注的焦点是内部均衡和外部平衡之间的关系。更精确的讲，<strong>国际金融学是从货币角度研究内部均衡条件下外部平衡实现问题的一门科学</strong>。</p>
+<h1 id="1-国际收支和国际收支平衡表"><a href="#1-国际收支和国际收支平衡表" class="headerlink" title="1.国际收支和国际收支平衡表"></a>1.国际收支和国际收支平衡表</h1><blockquote>
+<p>国际金融学作为一门科学，起源于货币媒介的国与国之间的经济交往。本章所介绍的国际收支和国际收支平衡表就是一国对外经济联系的货币记录及其账面表现，它能够帮助我们从一国的角度来理解国际金融的来龙去脉。</p>
+</blockquote>
+<h2 id="1-1-国际收支"><a href="#1-1-国际收支" class="headerlink" title="1.1 国际收支"></a>1.1 国际收支</h2><p>定义：国际收支是指一国在一定时期内全部对外往来的系统的货币记录。</p>
+<p>我们可以从以下几个方面理解国际收支：</p>
+<ol>
+<li>国际收支记录的是对外的交往，即一国居民与非居民之间的交易。就是说，国际收支依据的不是交易双方的国籍，而是居民。（居民：一个国家的经济领土内具有经济利益的经济单位）</li>
+<li>国际收支是系统的货币记录。其中包括：交易、经济价值的转移、移民等。</li>
+<li>国际收支是一个流量的概念。国际收支一般是对一年交易进行总结，所以它是一个流量的概念。</li>
+<li>国际收支是个事后的概念。它是对已经发生事情的一种记录。</li>
+</ol>
+<h2 id="1-2-国际收支平衡表"><a href="#1-2-国际收支平衡表" class="headerlink" title="1.2 国际收支平衡表"></a>1.2 国际收支平衡表</h2><p>国际收支平衡表指将每一笔国际收支记录按照特定账户分类和复式记账原则而汇总编制的会计报表。国际基金组织对国际收支平衡表的编制所采用的概念、准则、分类方法以及标准构成都作了统一的说明。</p>
+<h2 id="1-3-国际收支的不平衡问题"><a href="#1-3-国际收支的不平衡问题" class="headerlink" title="1.3 国际收支的不平衡问题"></a>1.3 国际收支的不平衡问题</h2><p>在国际收支的理论研究中，所有的交易都可以按照动机分为<strong>自主性交易和补偿性交易</strong>。自主性交易是指个人和企业为某种自主性目的（旅游、追求利润等）而从事的交易；补偿性交易是指为弥补国际收支不平衡而发生的交易（动用官方储备、为弥补国际收支逆差向外国政府借入贷款）。</p>
+<p><strong>所谓国际收支差额，指自主性交易的差额</strong>。这一差额为零时候称为<strong>国际收支平衡</strong>。差额为正时候称为<strong>国际收支顺差</strong>，这一差额为负时候称为<strong>国际收支逆差</strong>。</p>
+<p>一般而言，各国政府和国际经济组织都将国际收支平衡作为开放经济良好运作的指标，而把国际收支不平衡作为政策调整的重要对象。</p>
+<p>国际收支不平衡的原因有很多，并适合用不同的方法解决。国际收支不平衡可以分为以下7种：</p>
+<ol>
+<li>临时性不平衡：指短期的、由不确定因素引起的国际收支失衡。一般持续时间不长、带有可逆性，是一种正常现象。</li>
+<li>结构性不平衡：指国内经济、产业结构不能适应世界市场的变化而发生的国际收支失衡。</li>
+<li>货币性不平衡：指一定汇率水平下，国内货币成本与一般物价上升而引起出口货物价格相对高昂、进口货物价格相对便宜，从而导致国际收支失衡。</li>
+<li>周期性不平衡：一国经济周期波动所引起的国际收支失衡。</li>
+<li>收入性不平衡：统指一国国民收入相对快速增长而导致进口需求的增长超过出口增长所引起的国际收支失衡。</li>
+<li>预期性不平衡：预期因素 从实物流量和金融流量两方面对国际收支产生重要影响。</li>
+<li>币值扭曲：指本国货币与外国货币的名义比价持续背离了与外国货币的实际比价，从而造成本国商品实际价格持续较高而导致出口下降、进口上升，从而导致国际收支不平衡。</li>
+</ol>
+<p>一般而言，连续的巨额国际收支逆差意味着本国支付能力和信用水平的下降；连续的巨额国际收支顺差意味着本国将大量的实际资源供给外国消费，而不增加本国的实际福利水平。这 两种情况都会损害本国经济的稳定和发展。</p>
+<h2 id="1-4-国际收支不平衡的调节"><a href="#1-4-国际收支不平衡的调节" class="headerlink" title="1.4 国际收支不平衡的调节"></a>1.4 国际收支不平衡的调节</h2><p>国际收支不平衡的调节可以分为<strong>自动调节</strong>和<strong>政策调节</strong>。自动调节包括货币—价格机制、利率机制、收入机制。国际收支的自由调节仅适用于完全的自由市场经济。</p>
+<p>国际收支的政策调节分为需求政策、供给政策、融资政策和道义与宣誓型政策。每种调节政策都存在一定的成本，一般会将集中政策搭配使用。</p>
+<p>西方具有代表性的国际收支调节理包括弹性论、吸收论、货币论。</p>
+<p>各种自动调节机制或政策调节路径要想发挥作用，都需要假设“汇率不变”，或者本身就是以“汇率发生正向变动”为手段。因此，<strong>汇率在国际收支自动调节机制和政策调节中居核心和关键的地位，从而构成国际金融学分析的核心变量</strong>。</p>
+<h1 id="2-汇率基础理论"><a href="#2-汇率基础理论" class="headerlink" title="2.汇率基础理论"></a>2.汇率基础理论</h1><blockquote>
+<p>汇率是两国货币的相对价格，其变动不仅会影响国际收支，还会影响物价、收支、就业等一系列的变量，他在国际金融学中处于一个核心地位的变量。</p>
+</blockquote>
+<h2 id="2-1-外汇和汇率的基本概念"><a href="#2-1-外汇和汇率的基本概念" class="headerlink" title="2.1 外汇和汇率的基本概念"></a>2.1 外汇和汇率的基本概念</h2><p><strong>外汇是指，外国货币或以外国货币表示的、能用来清算国际收支差额的资产。</strong></p>
+<p>一种外币以及用其它资产表示的资产成为外汇有三个条件：1.自由兑换性；2.普遍接受性；3.可偿性，即这种外币资产可以保证方便的得到偿付。</p>
+<p>当一种商品或劳务参与国际交换时，就有一个把商品或劳务以本国货币表示的价格折算成以外币表示的国际价格问题，这种折算是按汇率来进行的。<strong>所谓汇率，是两种不同货币之间的折算比价，也就是以一种货币表示另一种货币的价格。</strong></p>
+<p>汇率的表示有两种方式：</p>
+<ol>
+<li><strong>直接标价法</strong>：固定外国货币数量，以本国货币表示这一固定的外国货币价格。</li>
+<li><strong>间接标价法</strong>：固定本国货币数量，以外国货币表示这一本国货币的价格。</li>
+</ol>
+<p>在中国，<strong>美元与人民币的汇率是用美元直接标价法来公布的</strong>，而人民币与美元的汇率是用人民币 间接标价法来公布的。</p>
+<h2 id="2-2-汇率决定的原理I"><a href="#2-2-汇率决定的原理I" class="headerlink" title="2.2 汇率决定的原理I"></a>2.2 汇率决定的原理I</h2><p>汇率作为一国货币对外价格的表示，既要受到经济因素的影响，又常常受政治和社会因素的影响。</p>
+<p>影响汇率的水平的因素包括：</p>
+<ol>
+<li><strong>国际收支</strong>：指一国经济活动中对外的收入和支出，国际收支的差额需要使用各国普遍接受的外汇来结算。当一国的收入大于支出，即贸易顺差时，可以说是外汇的供应大于需求，本国货币升值，外国货币贬值；反之，贸易逆差时，供应小于需求，本国货币贬值，外国货币升值。</li>
+<li><strong>相对通货膨胀率</strong>：货币对外价值的基础是对内价值。如果货币的对内价值持续降低，其对外价值也必然随之降低。</li>
+<li><strong>相对利率</strong>：利率也会对外汇水平造成影响。当本国利率高时，本币持有者不愿意将外币兑换成外币，外汇市场上本国货币供应减少，同时外币持有者则愿意将外币兑换成高利率的本国货币，外汇市场本国货币需求增加，造成本国货币的升值（外币兑换更少的本国货币）。</li>
+<li><strong>总需求和总供给</strong>：总需求和总供给增长中的结构不一致和数量不一致，也会影响汇率。</li>
+<li><strong>预期</strong>：预期有时候对汇率造成重大影响。预期多种多样，包括经济上的、政治上的、社会上的。</li>
+<li><strong>财政赤字</strong>：财政赤字的增加或减少会影响到汇率的变动方向。财政赤字往往会导致本国货币供应增加和需求增加，因此，财政赤字会导致本国货币的贬值。</li>
+<li><strong>国际储备</strong>：国际储备，特别是外汇储备的多少，能表明政府干预外汇市场、稳定货币的能力的强弱。储备增加能够加强外汇市场对本国货币的信心，因而有助于本国货币升值。</li>
+</ol>
+<p><strong>金本位下的汇率决定</strong></p>
+<p>金本位是指以黄金作为基础的货币制度。随着经济发展和人们对货币认识的演变，金本位制度经历了三种形式：金币本位制、金块本位制、金汇兑本位制。</p>
+<ol>
+<li><strong>金币本位制</strong>：金币的形状、重量和成色由国家法律规定，可以自由铸造和融化，具有无限法偿能力，辅币和银行券的发行需要以等量的黄金作为准备，并且可以自由兑换成金币。黄金是国际结算的手段，可以自由的输出、输国境。</li>
+<li><strong>金块本位制</strong>：随着经济的发展，黄金产量日益落后于货币的需求。金块本位下，黄金不再流通，银行发行以黄金为基础的银行券作为主要流行手段，银行券和黄金不能自由兑换，只能在一定条件下向银行兑换黄金，兑换条件往往是较高的数额，这就避免了日常生活中向银行兑换的玛法。</li>
+<li><strong>金汇兑本位制</strong>：金汇兑本位制是一种广义的金本位制。实行金汇兑本位制的国家，将本国货币的发型与某个实行金块本位制或金币本位制的国家的货币挂钩，本规定本国货币与该国货币的兑换比价。本国货币只能兑换成该外国货币，然后才能兑换黄金。二战后的<strong>布雷顿森林体</strong>系规定的国际货币制度从某种程度上讲就是金汇兑本位制。</li>
+</ol>
+<p>随着经济的进一步发展，对货币的需求也进一步增加。银行券与黄金之间的法定比价被一再打破，最终银行券脱离黄金而独立流通，于是广义的金本位制被纸币本位所代替，纸币成了独立于黄金的流通和支付手段。</p>
+<h2 id="2-3-汇率决定的原理II"><a href="#2-3-汇率决定的原理II" class="headerlink" title="2.3 汇率决定的原理II"></a>2.3 汇率决定的原理II</h2><p>汇率不但受到其它经济因素的影响和决定，而且汇率变动本身也会影响其它各种变量，从而影响宏观经济的运行。以本币贬值为例，它一般能够改善国际收支、扩大总需求、促进就业，并对民族工业、劳动生产率和经济结构有复杂的 影响。<strong>汇率水平是否合理的关键在于是否有助于使物价、就业等变量达到理想状态</strong>。</p>
+<p>比较传统的理论认为，成功的货币贬值对经济的影响是扩张性的。在乘数的作用下，它通过增加出口，增加进口替代品的生产，使国民收入得到成倍增长。</p>
+<p>汇率作为国际金融学中重要的变量，同时具有比价属性和杠杆属性。所谓<strong>比价属性</strong>指，汇率水水平由其它宏观经济变量的变动所决定（如国际收支、货币供应量、物价、产出等）；所谓汇率的<strong>杠杆属性</strong>指，汇率水平变动会带来其它宏观经济变量的变动。汇率水平决定的杠杆属性对于中国的宏观决策具有特别重要的意义。</p>
+<h1 id="3-内部均衡和外部平衡的调节"><a href="#3-内部均衡和外部平衡的调节" class="headerlink" title="3.内部均衡和外部平衡的调节"></a>3.内部均衡和外部平衡的调节</h1><p><strong>所谓国际收支均衡</strong>，是指国内经济处于均衡状态下的自主性国际收支平衡。国际收支调节的目的，从简单和直接的意义上讲是追求国际收支的平衡；从更深层意义上讲，尤其是当国内经济处于不均衡的情况下，是要追求国际收支的均衡。</p>
+<p><strong>内部均衡：</strong>反应国内总供给和总需求相等的状态，但将充分就业这一条件剔除，同时将内部均衡在时间跨度上进行拓展和细分，分为短期、中期 、长期三个阶段。</p>
+<p><strong>外部平衡：</strong>指国际收支平衡，主要是指单纯的国际收支账户在一定口径上的数量平衡，而外部平衡则是在国内经济均衡发展，内部均衡实现基础上的国际收支平衡。从长期来讲，外部均衡是指，经济可持续增长基础上的国际收支平衡。</p>
+<p>内部均衡和外部平衡的调节，从时间跨度上可以分为：短期调节、中长期调节。两种调节目的所需要采取的政策手段是不同的。（这点没有进行深入学习，详见原文第四章和第五章）</p>
+<h1 id="4-外汇管理及其效率分析"><a href="#4-外汇管理及其效率分析" class="headerlink" title="4.外汇管理及其效率分析"></a>4.外汇管理及其效率分析</h1><p>外汇管理是指国家通过行政、立法和经济手段主动调节外汇价格和外汇供求、以实现内部均衡情况下的外部平衡的一系列行为。在国际金融学的范畴，外汇管理的主要内容包括外汇直接管制、汇率制度选择、外汇 储备管理，以及外汇市场干预等方面的内容。</p>
+<h2 id="4-1-外汇直接管制及其效率分析"><a href="#4-1-外汇直接管制及其效率分析" class="headerlink" title="4.1 外汇直接管制及其效率分析"></a>4.1 外汇直接管制及其效率分析</h2><p>外汇直接管制：国家通过法律、法令、条例等形式，对外汇资金的收入和支出、汇入和汇出、本国货币和外国货币的兑换方式及兑换比价进行的限制。外汇管制的主要目标是维持本国国际收支的平衡，保持汇率的有序安排，维持物价和金融的稳定，促进本国竞争能力和经济的发展。</p>
+<p>采取外汇直接管制的原因一般包括以下三个方面：</p>
+<ol>
+<li>短期冲击因素：包括实际冲击、货币性冲击。以及由各种因素导致心理预期的改变所产生的投机冲击。</li>
+<li>宏观经济因素：一是为了保证猿猴政策能够更好的发挥预期效力；另一种情况是，由于政府采用了不合理的宏观政策，导致最后被迫采取直接管制措施以避免危机。</li>
+<li>微观经济因素：计划经济下的价格体系不合理；发展中国家产品缺乏竞争力。</li>
+</ol>
+<p>外汇管制的主要内容：</p>
+<ol>
+<li>货币兑换的管制。</li>
+<li>外汇资金收入和运用管理。</li>
+<li>汇率种类管理。指实行单一汇率，或双重汇率，或多重汇率。</li>
+</ol>
+<p><strong>外汇直接管制的评价</strong></p>
+<p>在发展中国家，各种形式的外汇直接 管制仍然是比较常见的现象，主要评价有三点。</p>
+<ol>
+<li>直接管制政策是开放经济实现内部均衡目标的政策搭配中经常出现的措施。因为它收效迅速、针对性强。</li>
+<li>直接管制有很多弊端，且实施直接管制政策的时间越长，它对经济消极的影响越大。</li>
+<li>从长远来看，逐渐取消直接管制才是政策发展的方向。</li>
+</ol>
+<h2 id="4-2-汇率制度的选择"><a href="#4-2-汇率制度的选择" class="headerlink" title="4.2 汇率制度的选择"></a>4.2 汇率制度的选择</h2><p>汇率制度是一国货币当局对本国汇率水平的确定、汇率变动方式等问题所做的一系列的安排或规定。<strong>最基本的汇率管理制度是<code>固定汇率制</code>和<code>浮动汇率制</code></strong>，此外还有爬行钉住、管理浮动、汇率目标区、货币局等其它类型的汇率制度。这些汇率制度各有优劣，应该根据本国经济结构、特定政策目标、地区性经济合作情况和国际经济条件的制约等因素选择汇率制度。</p>
+<p><strong>固定汇率制</strong>：政府用行政或法律手段选择一个基本的参照物，并确定、公布和维持本国货币与该参照物之间的固定比价，这个固定比价也被称为法定比价或者法定汇率。充当参照物的可以是某一种外国货币或一组外国货币。</p>
+<p><strong>浮动汇率制</strong>：汇率水平完全由外汇市场上的供求关系决定、政府不加任何干预的汇率制度。</p>
+<h2 id="4-3-外汇储备管理"><a href="#4-3-外汇储备管理" class="headerlink" title="4.3 外汇储备管理"></a>4.3 外汇储备管理</h2><p>国际储备有广义和狭义之分。广义的国际储备又被称为国际清偿力，狭义的国际储备就是人们通常所说的国际储备，它是指一国货币当局的自有储备，包括一国货币当局持有的黄金、外汇储备、在国际货币基金组织的储备头寸，以及在国际货币基金组织的特别提款权余额。其中，外汇储备是国际储备中最主要的部分。</p>
+<p>国际储备管理的任务主要是指外汇储备的数量管理和币种构成管理。传统的外汇储备管理主要从外部平衡的角度来分析最优储备数量 的确定，从而进一步的分析表明，外汇储备数量还充当着一国总供给和总需求之间的调节作用。因此，从 更全面的角度看，最优外汇储备数量的确定是由可持续条件下的经济增长和国际收支平衡共通 决定的。</p>
+<h2 id="4-4-外汇市场的干预以及效率分析"><a href="#4-4-外汇市场的干预以及效率分析" class="headerlink" title="4.4 外汇市场的干预以及效率分析"></a>4.4 外汇市场的干预以及效率分析</h2><p>浮动汇率制下政府对外汇市场进行干预是为了防止汇率在短期内过分波动、避免汇率在中长期内失调、进行政策搭配 以及满足其他需要。</p>
+<p>最主要的干预类型有冲销式干预与非冲销式干预，干预是通过资产调整效应与信号效应发挥影响的。虽然货币分析法与资产组合分析法对干预效力的分析存在差异，但他们都认为非冲销式干预是有效的。</p>
+<p>外汇管理过程中可能会出现的问题有资本外逃问题、管理可信度问题和货币替代问题。提供宏观经济环境的稳定和政府的可信度是解决这些问题的关键，否则较为严格的直接管制可能是必要的。</p>
+<h1 id="5-金融全球化对内外均衡的冲击"><a href="#5-金融全球化对内外均衡的冲击" class="headerlink" title="5.金融全球化对内外均衡的冲击"></a>5.金融全球化对内外均衡的冲击</h1><p>随着国际经济的一体化、通讯技术的发展，资金在国际间的流动规模逐渐超过了国际贸易额，形成了庞大的国际金融市场。国际金融市场超越了地理空间的限制，位于不同国家的资金供应双方能够在此市场上便捷的进行交易，增强了交易的深度和广度，使国际经济得到了前所未有的发展。但与其同时，快速、大额的资金流动也通过资本和金融账户直接或间接地对各国的国际收支和国民经济造成巨大的影响，并引发了跨国界的货币金融危机。</p>
+<h2 id="5-1-国际金融市场的构成特点"><a href="#5-1-国际金融市场的构成特点" class="headerlink" title="5.1 国际金融市场的构成特点"></a>5.1 国际金融市场的构成特点</h2><p>国际金融市场，是指资金在国际间流动或金融产品在国际间买卖和交易的场所。国际金融市场主要包括国际货币市场、国际资本市场、欧洲货币市场、外汇市场等几个重要的子市场。</p>
+<ol>
+<li>国际货币市场：指期限在一年内的银行短期信贷、短期证券及票据贴现市场，其中介机构包括商业银行、票据承兑行、贴现行、证券交易商和证券经纪人。</li>
+<li>国际资本市场：1年以上的中长期融资市场，参与者有银行、公司、证券商及政府机构。</li>
+<li>欧洲货币市场：欧洲货币市场的前身是产生于20世纪50年代的欧洲美元市场。当时苏联和东欧国家担心它们在美国的美元资金被冻结而将资金转存到英国的银行，英国政府为了获得资金、恢复英镑的地位和支持国内经济的发展，就准许伦敦各大商业银行接受境外美元存款和办理美元借贷 业务，于是，欧洲美元市场出现了。</li>
+<li>国际外汇市场：外汇市场是从事外汇买卖的场所，它的参与者由买卖货币的所有机构和个人组成，主要包括中央银行、商业银行、外汇经纪人、经营外汇的公司等。外汇市场交易即即期交易、远期交易、期货交易、期权交易等。</li>
+<li>境外人民币市场：随着中国经济的发展，人民币在国际交往中的地位和作用不断提高，越来越多的人民币被留存在中国的国境之外，称为外国政府的外汇储备或企业和个人交易、支付及财富管理手段。</li>
+</ol>
+<h2 id="5-2-国际资金流动的原因和影响"><a href="#5-2-国际资金流动的原因和影响" class="headerlink" title="5.2 国际资金流动的原因和影响"></a>5.2 国际资金流动的原因和影响</h2><p>国际间的资金流动分为两种，一种是和实际生产、贸易有密切关系的资金流动，可以称作<strong>国际资本流动</strong>；另一种是和实际生产、贸易无直接关系、主要以获取资产差价和金融收益为目的 的而在国际间进行的纯金融性质的流动，可以称作是<strong>国际资金流</strong>，也可以称作<strong>国际游资</strong>。</p>
+<h2 id="5-3-金融全球化对内外均衡的冲击：债务危机和银行危机"><a href="#5-3-金融全球化对内外均衡的冲击：债务危机和银行危机" class="headerlink" title="5.3 金融全球化对内外均衡的冲击：债务危机和银行危机"></a>5.3 金融全球化对内外均衡的冲击：债务危机和银行危机</h2><p><strong>债务危机</strong>：20世纪80年代初期，爆发了一场世界性的债务危机。所谓的债务危机指一系列非产油发展中国家无力偿还到期的外债（通常是欠国际银行业的债务），由此不仅导致发展中国家的债信严重下降，而且也使国际银行业陷入了资金危机，严重影响了国际金融业乃至整个国际货币体系的稳定。</p>
+<p><strong>银行危机</strong>：20世纪60年代，西方国家的银行国际化有了迅速发展，银行经营的范围和方式发生了巨大变化。许多西方国家的银行越出国界，在国外设立了分支机构或附属机构。1973年布雷顿森体系固定汇率制度的瓦解，使得银行国际经营的风险大大增加。</p>
+<h2 id="5-4-金融全球化对内外均衡的冲击：货币危机和次贷危机"><a href="#5-4-金融全球化对内外均衡的冲击：货币危机和次贷危机" class="headerlink" title="5.4 金融全球化对内外均衡的冲击：货币危机和次贷危机"></a>5.4 金融全球化对内外均衡的冲击：货币危机和次贷危机</h2><p><strong>货币危机</strong></p>
+<p>货币危机广义上指一国货币的汇率变动在短期内超过一定幅度、在狭义上指市场参与者通过外汇市场的操作导致该国固定汇率制度崩溃、从而引发外汇市场和金融市场持续动荡的事件。</p>
+<p>货币危机的一个明显特征是本国货币的大幅度贬值。货币危机和金融危机既有区别也有联系。金融危机不仅表现在汇率波动，还包括股票市场和银行体系等金融市场上价格波动和金融机构的经营困难和破产等。货币危机可以诱发金融危机，而由国内因素引起的一国金融危机也会导致货币危机的发生。</p>
+<p>引发货币危机的原因：宏观经济基本因素的不健全、政府的扩张性政策、心理预期作用引起的投机冲击、其它国家爆发货币危机的传播。</p>
+<p><strong>次贷危机</strong></p>
+<p>次贷危机，又称次级住房按揭贷款危机，指2007年发生在美国然后又蔓延至全世界并引发全球金融动荡和经济滑坡的一次危机。</p>
+<p>次贷危机是银行为了追求更多利润，利用金融创新手段实行过渡放贷而引起的。</p>
+<p>化解次贷危机，一方面依靠加强监管，另一方面依靠刺激消费和向市场注入资金及向亏损机构提供援助。对美国而言，采用宽松货币政策来刺激消费和扩大政府援助能力的做法使美元在全世界泛滥，世界大宗商品价格上涨，美元贬值，持有美元的国家其美元储备的购买力大幅缩水，从而被迫为美国的次贷危机埋单。</p>
+<h1 id="6-金融全球化下的国际协调与合作"><a href="#6-金融全球化下的国际协调与合作" class="headerlink" title="6.金融全球化下的国际协调与合作"></a>6.金融全球化下的国际协调与合作</h1><p><strong>国际货币体系</strong></p>
+<p><strong>国际货币体系</strong>指，国际货币制度、相应的国际间货币金融机构以及由习惯和历史沿革形成的约定俗成的国际货币秩序的总和，它包括有传统约束力的各国已经在实践共同遵守的某些做法和规则，还包括在国际货币关系中起协调、监督作用的国际金融机构——国际货币基金组织和其它一些全球或地方性的多边官方金融机构。</p>
+<p><strong>金本位制</strong></p>
+<p>历史上第一个国际货币体系是金本位制。国际金本位制是在德国、美国、英国、拉丁货币联盟、荷兰及北欧国家在国内实行金本位的基础上形成的。（更多内容参考<a href="https://baike.baidu.com/item/%E9%87%91%E6%9C%AC%E4%BD%8D?fromtitle=%E9%87%91%E6%9C%AC%E4%BD%8D%E5%88%B6&fromid=2280911" target="_blank" rel="noopener">百度百科</a>）</p>
+<p>特点：1.黄金是国际货币的基础；2.黄金可以自由的输入和输出；3.一国的金铸币和另一国的金铸币可以自由兑换；4.在金币流通的国家内，金币可以自由铸造。</p>
+<p>国际金本位下，金币的自由输入输出保证了各国货币之间的比价相对稳定，金币的自由兑换保证了黄金与其它代表黄金流通的铸币、银行券之间的比价相对稳定。金币的自由铸造和融化具有调节市场上货币流通量的作用，进而保证各国物价的相对稳定。因此，国际金本位制是一种比较稳定的货币制度，在当时的条件下，它对汇率的稳定、国际贸易和资本流动的发展，以及各国经济发展起到积极的作用。</p>
+<p>缺点：1.国际间清算完全依赖黄金的输入、输出；2.货币数量增长完全依赖黄金产量，而黄金产量跟不上经济增长。</p>
+<p>第一次世界大战爆发前，各国为了筹集战争资源而增加了银行券的发行，战争爆发后，各国便终止了银行券与黄金的兑换，禁止黄金出口，国际金本位制宣告瓦解。</p>
+<p><strong>布雷顿森体系的内容和意义</strong></p>
+<p>第二次世界大战以后，世界建立了一个以美元为中心的国际货币体系，即布雷顿森体系。该体系在1944年7月在美国新罕不什尔州的布雷顿森城召开而得名。</p>
+<p>《布雷顿森林协定》规定，布雷顿森林体系下的国际货币制度以黄金—美元为基础，实行黄金—美元本位制。在这个制度下，规定美元按35美元等于1盎司黄金与黄金保持固定比价，各国政府可随时用美元向美国政府按照这一比价兑换黄金。各国货币则与美元保持固定比价，称为可调整的固定汇率。各国货币对美元的波动幅度为上下1%，各国当局有义务在外汇市场上进行干预以保持汇率的稳定。 (更多内容参考<a href="https://baike.baidu.com/item/%E5%B8%83%E9%9B%B7%E9%A1%BF%E6%A3%AE%E6%9E%97%E4%BD%93%E7%B3%BB/1952162?fromtitle=%E5%B8%83%E9%9B%B7%E9%A1%BF%E6%A3%AE%E6%9E%97&fromid=17202576&fr=aladdin" target="_blank" rel="noopener">百度百科</a>)</p>
+<p><strong>国际货币基金组织</strong></p>
+<p>1944年7月的布雷顿森林会议上，与会国签订了成立国际货币基金的协议，货币基金的主要设计者是英国经济学家凯恩斯和美国财政部副部长怀特。1946年5月，国际货币基金组织（IMF）正式成立，总部设在华盛顿。</p>
+<p>国际货币基金组织的职能：1.确立成员国在汇率政策、与经常项目有关的支付以及货币兑换方面需要遵守的行为准则，并实施监督；2.向国际收支发生困难的成员国提供必要的临时性资金融通，以使他们遵守上述准则，避免采用不利于其它国家经济发展的经济政策；3.为成员国提供进行国际货币合作与协商的场所。</p>
+<p>更多内容请参考<a href="https://baike.baidu.com/item/%E5%9B%BD%E9%99%85%E8%B4%A7%E5%B8%81%E5%9F%BA%E9%87%91%E7%BB%84%E7%BB%87" target="_blank" rel="noopener">百度百科</a>。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/2020-03/6913.html" rel="prev" title="《硅谷之火》有感">
+      <i class="fa fa-chevron-left"></i> 《硅谷之火》有感
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/2020-03/10276.html" rel="next" title="《囚徒的困境》有感">
+      《囚徒的困境》有感 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-国际收支和国际收支平衡表"><span class="nav-number">1.</span> <span class="nav-text">1.国际收支和国际收支平衡表</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-国际收支"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 国际收支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-国际收支平衡表"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 国际收支平衡表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3-国际收支的不平衡问题"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 国际收支的不平衡问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-4-国际收支不平衡的调节"><span class="nav-number">1.4.</span> <span class="nav-text">1.4 国际收支不平衡的调节</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-汇率基础理论"><span class="nav-number">2.</span> <span class="nav-text">2.汇率基础理论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-外汇和汇率的基本概念"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 外汇和汇率的基本概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-汇率决定的原理I"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 汇率决定的原理I</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-汇率决定的原理II"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 汇率决定的原理II</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-内部均衡和外部平衡的调节"><span class="nav-number">3.</span> <span class="nav-text">3.内部均衡和外部平衡的调节</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-外汇管理及其效率分析"><span class="nav-number">4.</span> <span class="nav-text">4.外汇管理及其效率分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#4-1-外汇直接管制及其效率分析"><span class="nav-number">4.1.</span> <span class="nav-text">4.1 外汇直接管制及其效率分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-2-汇率制度的选择"><span class="nav-number">4.2.</span> <span class="nav-text">4.2 汇率制度的选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-3-外汇储备管理"><span class="nav-number">4.3.</span> <span class="nav-text">4.3 外汇储备管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-4-外汇市场的干预以及效率分析"><span class="nav-number">4.4.</span> <span class="nav-text">4.4 外汇市场的干预以及效率分析</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-金融全球化对内外均衡的冲击"><span class="nav-number">5.</span> <span class="nav-text">5.金融全球化对内外均衡的冲击</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#5-1-国际金融市场的构成特点"><span class="nav-number">5.1.</span> <span class="nav-text">5.1 国际金融市场的构成特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-2-国际资金流动的原因和影响"><span class="nav-number">5.2.</span> <span class="nav-text">5.2 国际资金流动的原因和影响</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-3-金融全球化对内外均衡的冲击：债务危机和银行危机"><span class="nav-number">5.3.</span> <span class="nav-text">5.3 金融全球化对内外均衡的冲击：债务危机和银行危机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-4-金融全球化对内外均衡的冲击：货币危机和次贷危机"><span class="nav-number">5.4.</span> <span class="nav-text">5.4 金融全球化对内外均衡的冲击：货币危机和次贷危机</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-金融全球化下的国际协调与合作"><span class="nav-number">6.</span> <span class="nav-text">6.金融全球化下的国际协调与合作</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="韦东方"
+      src="/resource/images/head_icon180.jpg">
+  <p class="site-author-name" itemprop="name">韦东方</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="http://blog.weidongfang.online/" title="Tech Blog → http:&#x2F;&#x2F;blog.weidongfang.online" rel="noopener" target="_blank"><i class="fa fa-book-reader fa-fw"></i>Tech Blog</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:dev.dongfang@gmail.com" title="E-mail → mailto:dev.dongfang@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+  <div class="beian"><a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备20017039号 </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">@dev.dongfang</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'neutral',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : true,
+      appId      : 'vMrO1hYoNr03pjrQ0iIUSSLL-gzGzoHsz',
+      appKey     : 'iyTSJjyCkkOSrXToutmor7ru',
+      placeholder: "欢迎留言！",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '15' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
