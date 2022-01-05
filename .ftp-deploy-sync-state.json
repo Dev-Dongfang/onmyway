@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1639121912290,
+    "generatedTime": 1641399542289,
     "data": [
         {
             "type": "file",
@@ -13,7 +13,7 @@
             "type": "file",
             "name": "README.html",
             "size": 14442,
-            "hash": "174f98c96672e20da3d1dc762e25c02631bc79cd0c7f0af96e7f36566c09cf51"
+            "hash": "4c47018de2ed1566ac75380f4019029c2368f0b50151fcbeb458ad7a0fd53cad"
         },
         {
             "type": "folder",
@@ -38,8 +38,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 44333,
-            "hash": "f49dbd8f86fb43cb7e0460f5649bb556bdd0504a088290b959b1a9e68a4695be"
+            "size": 44915,
+            "hash": "6fb767a75313d349764511f1bedc152fba19b3f890a9ce51c0066548516614d4"
         },
         {
             "type": "folder",
@@ -55,17 +55,17 @@
         },
         {
             "type": "folder",
-            "name": "resource"
+            "name": "posts"
         },
         {
             "type": "folder",
-            "name": "posts"
+            "name": "resource"
         },
         {
             "type": "file",
             "name": "search.xml",
-            "size": 152402,
-            "hash": "6cfc7d4b3735dd44a2d4f409008063de13e0c66920dc5dc94197ed9b7107d82a"
+            "size": 181198,
+            "hash": "1a81d489fc59a8d060d6066121a15be25462381b3f9784c8d517a662ded4a1f7"
         },
         {
             "type": "folder",
@@ -75,7 +75,7 @@
             "type": "file",
             "name": "about/index.html",
             "size": 13727,
-            "hash": "1b6113ae8d02d2b7c1c20b6fbeac7c65377ec4df645ba9b52531aaba9a27cbdc"
+            "hash": "91604919aef24f13631fd5c893ba03515a365feebb48e815c915f352f35cf731"
         },
         {
             "type": "folder",
@@ -90,10 +90,14 @@
             "name": "archives/2021"
         },
         {
+            "type": "folder",
+            "name": "archives/2022"
+        },
+        {
             "type": "file",
             "name": "archives/index.html",
-            "size": 19522,
-            "hash": "8ebb6f64ce4fb39f7e73a338357d8623a9015e6991d50f39378905276600446f"
+            "size": 19597,
+            "hash": "a4dda263955b18b6ce3000f066736b30ccd8d4a23fd356be7eda0468213bcdb8"
         },
         {
             "type": "folder",
@@ -102,8 +106,8 @@
         {
             "type": "file",
             "name": "categories/index.html",
-            "size": 14714,
-            "hash": "7c891fc3eddd0835f5360ebfb2332a67d43b2fda6eaa1908241cd7fae39b9f80"
+            "size": 14915,
+            "hash": "a197a75da1c31de675cd83b63c7c673e02b319a2c5a4fc6a9b440f4dc6b4fc27"
         },
         {
             "type": "folder",
@@ -112,6 +116,10 @@
         {
             "type": "folder",
             "name": "categories/得到课程"
+        },
+        {
+            "type": "folder",
+            "name": "categories/总结与计划"
         },
         {
             "type": "folder",
@@ -125,7 +133,7 @@
             "type": "file",
             "name": "css/main.css",
             "size": 47746,
-            "hash": "1a6a3f191b1a9e5ea6dba93ea2475a0b6416c58c83e0d419cc151c7f8e9f0c0c"
+            "hash": "29a4ff3c5fa269b70481068d13c8f79bf2e2b2d590f72ec56c670ea810ab6294"
         },
         {
             "type": "file",
@@ -265,11 +273,11 @@
         },
         {
             "type": "folder",
-            "name": "resource/images"
+            "name": "posts/2019-05"
         },
         {
             "type": "folder",
-            "name": "posts/2019-05"
+            "name": "posts/2020-01"
         },
         {
             "type": "folder",
@@ -293,17 +301,25 @@
         },
         {
             "type": "folder",
-            "name": "posts/2021-12"
+            "name": "posts/2022-01"
+        },
+        {
+            "type": "folder",
+            "name": "resource/images"
         },
         {
             "type": "file",
             "name": "tags/index.html",
             "size": 13722,
-            "hash": "842fae718fe16a8f912fe36066c29a22ac81d87815d604c7eadfb319fe8389f2"
+            "hash": "928114a8c1480ce1a52a63ff98ece95f5805e0f3a3aa9d70244b39e74ae01734"
         },
         {
             "type": "folder",
             "name": "tags/学习"
+        },
+        {
+            "type": "folder",
+            "name": "tags/年终总结"
         },
         {
             "type": "folder",
@@ -329,7 +345,11 @@
             "type": "file",
             "name": "archives/2019/index.html",
             "size": 14110,
-            "hash": "56dfff0dafbe8c30a71ee06f25617f3f608e9419ff00a7f84a9d63c4e6f94070"
+            "hash": "a2ef0537951a41812320ce9f4d334120f3585ad6ea74d75161b816077dfe1513"
+        },
+        {
+            "type": "folder",
+            "name": "archives/2020/01"
         },
         {
             "type": "folder",
@@ -338,8 +358,8 @@
         {
             "type": "file",
             "name": "archives/2020/index.html",
-            "size": 16303,
-            "hash": "0ed46d3ed5143908756de1a828b222d455532fef210fc28db087787358a329f2"
+            "size": 16855,
+            "hash": "c6db277aabafa24d28e7e872082f84df4e7853c845ea533e07b8bbc215bbc263"
         },
         {
             "type": "folder",
@@ -358,14 +378,20 @@
             "name": "archives/2021/11"
         },
         {
+            "type": "file",
+            "name": "archives/2021/index.html",
+            "size": 16967,
+            "hash": "3f4f2888874d6ca1670aa0cfff328b7cd011428ec7f6dc893ef3e14d8191821b"
+        },
+        {
             "type": "folder",
-            "name": "archives/2021/12"
+            "name": "archives/2022/01"
         },
         {
             "type": "file",
-            "name": "archives/2021/index.html",
-            "size": 17519,
-            "hash": "b052530938575a798f9201b95810b2aa9c87d2127b9a1e9f206384374249fd4b"
+            "name": "archives/2022/index.html",
+            "size": 14098,
+            "hash": "9be8020a99e8d7103454cd6117c8342a7315ea9cdbffa7bf0c4cf3022e0e1215"
         },
         {
             "type": "folder",
@@ -375,25 +401,31 @@
             "type": "file",
             "name": "categories/reading/index.html",
             "size": 15381,
-            "hash": "89401442e1b5dfc82f30eb9724ab781522d7c46c126313b7e75ba0eb55a9d365"
+            "hash": "39721c352d832de6de84c27d807f02cb72680e09f326ef7413c8be44ea7504fc"
         },
         {
             "type": "file",
             "name": "categories/得到课程/index.html",
             "size": 14214,
-            "hash": "90afdb979c6919cd23e2cbf0b2d7d12c764c61c0f9180e9d40ce7230c778d352"
+            "hash": "3611eef97a9e5fae45750fd30ca6ed4afcdd47357640f6e4a5beb93b44d44c8d"
+        },
+        {
+            "type": "file",
+            "name": "categories/总结与计划/index.html",
+            "size": 14202,
+            "hash": "dac655325286784c8176eaab39f38cf7d3ed6667e1b1a0639ac8738721d5885d"
         },
         {
             "type": "file",
             "name": "categories/技术/index.html",
             "size": 14157,
-            "hash": "9a769f12cd5aee366ee0e9e19714de5d5cb5ec1042c16ff1561043625391d932"
+            "hash": "510f94831c154ad7d35d848e5670cdd900d4a494b31321bbe0e35265cb7efa3e"
         },
         {
             "type": "file",
             "name": "categories/极客时间/index.html",
             "size": 14220,
-            "hash": "15d3bf2bd8ba1e4961a7f58cfb5e423a7188ce659fbeb5a602bf13467dff9ebe"
+            "hash": "807a355961afd7841cdd1fd512b9745782f705bd162915cce78b1c5fff09deee"
         },
         {
             "type": "file",
@@ -409,11 +441,11 @@
         },
         {
             "type": "folder",
-            "name": "lib/font-awesome/webfonts"
+            "name": "lib/font-awesome/css"
         },
         {
             "type": "folder",
-            "name": "lib/font-awesome/css"
+            "name": "lib/font-awesome/webfonts"
         },
         {
             "type": "file",
@@ -430,8 +462,92 @@
         {
             "type": "file",
             "name": "page/2/index.html",
-            "size": 22733,
-            "hash": "08999abf8ffaff2b4ac8b8c5e21f548b68a010a02e449c2128ae0721b86b0589"
+            "size": 26087,
+            "hash": "a0fd0748558cc1c3e82a9d8b70a4962982ee26128941d5be46603fd7c56653a2"
+        },
+        {
+            "type": "file",
+            "name": "posts/2019-05/58967.html",
+            "size": 22947,
+            "hash": "813de49aee748c51e2ede07f501785b8e2b3d932721284820b6c6ff96ea7a4e4"
+        },
+        {
+            "type": "file",
+            "name": "posts/2020-01/25367.html",
+            "size": 30820,
+            "hash": "e694e46bb9f11f5e27e360a19a06b973e03abbc1372319d23bfd36a92d73787d"
+        },
+        {
+            "type": "file",
+            "name": "posts/2020-03/10276.html",
+            "size": 25287,
+            "hash": "4bfbc5c0f4d62b07b4ac9a9d103d2703625a3937cd90f9b593a31276982b185c"
+        },
+        {
+            "type": "file",
+            "name": "posts/2020-03/31239.html",
+            "size": 53476,
+            "hash": "b1b25f870578ab5dda34357b1400111c24e460dc042271917ce3b0a7ddeadc2e"
+        },
+        {
+            "type": "file",
+            "name": "posts/2020-03/41407.html",
+            "size": 34986,
+            "hash": "107b319e45b53adf6b816781207a4fda5700bc401678d64770d19f87e3e35d63"
+        },
+        {
+            "type": "file",
+            "name": "posts/2020-03/6589.html",
+            "size": 33606,
+            "hash": "d664e098f1bea67eb43072bec961f4e0951e73bb0e150a8fc449b6e67ab28eda"
+        },
+        {
+            "type": "file",
+            "name": "posts/2020-03/6913.html",
+            "size": 24665,
+            "hash": "24d626209f98f4a949867ff0f5a7769d9a2c6d9120907ce2c58d668b7941c46c"
+        },
+        {
+            "type": "file",
+            "name": "posts/2021-05/591hsi.html",
+            "size": 36233,
+            "hash": "d7245259a21b76e090ef46a74a6786b53989a79f60b8bea4cf2bbc43c6fb4100"
+        },
+        {
+            "type": "file",
+            "name": "posts/2021-05/ueysksioajd.html",
+            "size": 29570,
+            "hash": "2b7d1dfb8c6c3a77af7a23b1dfb6e8d9fc835eee5348c8bcf95af78884de2a87"
+        },
+        {
+            "type": "file",
+            "name": "posts/2021-06/6350866.html",
+            "size": 24730,
+            "hash": "2be4bcaae1d075f5e49fe5b879730f066a918408d5759eff7ff97cf63195a490"
+        },
+        {
+            "type": "file",
+            "name": "posts/2021-08/27d4.html",
+            "size": 19224,
+            "hash": "7432c3f3ab9e6db1a2d6466c2f760a0cbfce558aa21917545956d48e6f20a6fa"
+        },
+        {
+            "type": "file",
+            "name": "posts/2021-11/10db.html",
+            "size": 19371,
+            "hash": "23eccca3b09e780881c7a870b7121ab9c4202f6d7647cd691429233d9368b8b3"
+        },
+        {
+            "type": "file",
+            "name": "posts/2021-11/354121234.html",
+            "size": 36813,
+            "hash": "f840179a7e10249538cb7de0053c532e8b77883f91f3d5b5032b46f607a8770f"
+        },
+        {
+            "type": "file",
+            "name": "posts/2022-01/87uj.html",
+            "size": 50859,
+            "hash": "3a3e3fb359541659c9988240e1e2908f22f75534baa5323dcc73b9c870e44ea9"
         },
         {
             "type": "file",
@@ -453,159 +569,99 @@
         },
         {
             "type": "file",
-            "name": "posts/2019-05/58967.html",
-            "size": 22944,
-            "hash": "8ef7864c07df75a2f5cefb667b8567a8a1d315a63e2f1b575f7c4b8fa0e73bb5"
-        },
-        {
-            "type": "file",
-            "name": "posts/2020-03/10276.html",
-            "size": 25287,
-            "hash": "9274f76e04468f460833b4e0a39520c630ecd5bcde4c62965ca9ce0d0fcd4d5f"
-        },
-        {
-            "type": "file",
-            "name": "posts/2020-03/31239.html",
-            "size": 53476,
-            "hash": "2b6671ece29aa7020c0f47dba843762668fc69e63ccc0a2ffe259cce2fcc3891"
-        },
-        {
-            "type": "file",
-            "name": "posts/2020-03/41407.html",
-            "size": 34986,
-            "hash": "e38b5856e0ca2f755c0dffa12a1191c9992ad2e341a190d3e6ac18d60bd7bc91"
-        },
-        {
-            "type": "file",
-            "name": "posts/2020-03/6589.html",
-            "size": 33590,
-            "hash": "417d53f566189a0956d22433b907e526767745740b8721a93698b120565d48de"
-        },
-        {
-            "type": "file",
-            "name": "posts/2020-03/6913.html",
-            "size": 24665,
-            "hash": "2fdd1845b8013359c6cc527cf446ebebc64eac0819f533e2b7bc61d73f4a92d8"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-05/591hsi.html",
-            "size": 36233,
-            "hash": "41fccff8a1d66558cf04d604000f95e8c1620a7a91cedc5e612250a83fbd3308"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-05/ueysksioajd.html",
-            "size": 29570,
-            "hash": "09aa6841dc92e62c452aca5962a3126a3b0e1e6c6ecdf4d8bcc434a4ab63df94"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-06/6350866.html",
-            "size": 24730,
-            "hash": "86db27baa251e445147de87d0cdcb72e910e3b3e4507a5c78b78c18c282dbeae"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-08/27d4.html",
-            "size": 19224,
-            "hash": "bd2f8e660d129b1fec3b8fad5c95e861b9e2c5401c1421e02e0ba625ea5751b3"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-11/10db.html",
-            "size": 19410,
-            "hash": "462b6e22819f609728f2524a5e698d2b70a2f1e0fe3d318149312ca8e8594f3d"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-11/354121234.html",
-            "size": 36813,
-            "hash": "95e1e3e08a35322e0e50fca3277eac1c2c36b5aace4700ef6536ff3178842312"
-        },
-        {
-            "type": "file",
-            "name": "posts/2021-12/25367.html",
-            "size": 30255,
-            "hash": "0a145a0648148e9f6b262e27417bd1a233d17753f42e29882ba48d0ec77627e8"
-        },
-        {
-            "type": "file",
             "name": "tags/学习/index.html",
             "size": 14149,
-            "hash": "b3b564bd526477c69dd3c4d45bd844a335a134b150ec4b66e709db7bed7c29e1"
+            "hash": "97a3ecab84e421ee48b3a768cfbe5542ee439d53a16487f4265ad5de85b6b42d"
+        },
+        {
+            "type": "file",
+            "name": "tags/年终总结/index.html",
+            "size": 14161,
+            "hash": "c11f843487f83a240b7747b4625c4cce740c3d18fb27c051879f56445be499da"
         },
         {
             "type": "file",
             "name": "tags/得到/index.html",
             "size": 14708,
-            "hash": "e573ad875abd5b432f36db7ef8510d65d2e06315392165dac0a4b34dc4c25b25"
+            "hash": "5bc2199f610d1489bfc3d2ce3b3748d950285e9b3b33dec3f2c6394b0db938b9"
         },
         {
             "type": "file",
             "name": "tags/技术/index.html",
             "size": 14140,
-            "hash": "04ffa6e38563445840cd49d9105a1f97d31574867b73c750a1a1660f067acad3"
+            "hash": "df80c26a96004c0d13b21a57a6f8236b80cc76a504fada6333c4982792c22b2e"
         },
         {
             "type": "file",
             "name": "tags/极客时间/index.html",
             "size": 14203,
-            "hash": "93b5a0ef63a56836eede47a9795b4fce2b04b7dd42bb7f4baa797e24c52e3dca"
+            "hash": "bb50eed563bd404aa4de3132a562655cdf25179542e624dd636576338c46b3bd"
         },
         {
             "type": "file",
             "name": "tags/科技/index.html",
             "size": 14140,
-            "hash": "717d6d21ebb386b263caade93fde8628e710c79cb977e5901266e9676335a9b0"
+            "hash": "c096fb3f5f1277bf5575b866aefed42cbdf28afb559c64cd79024a54f19a7980"
         },
         {
             "type": "file",
             "name": "archives/2019/05/index.html",
             "size": 14116,
-            "hash": "d7c26a21fd45b16434109c2dc370c59aaeaf1f1e84112a5413e028df9c55794e"
+            "hash": "812c8a5d161cffbdf583d3bdd14b16d034fa58eb483ddef5fb951b374f59a6ed"
+        },
+        {
+            "type": "file",
+            "name": "archives/2020/01/index.html",
+            "size": 14124,
+            "hash": "da5f9c9239ea3adf531db4bc9ac1dda2d4f1c029f8eaf99887aa3054916d143f"
         },
         {
             "type": "file",
             "name": "archives/2020/03/index.html",
             "size": 16309,
-            "hash": "7024276e6d0546cafff97e869e3ca8eeb4010af0dab371c430c18175e11d3d13"
+            "hash": "215ae3f13523473adec6b2eab0f50829d77e7b6475d403325c42b319726fd14b"
         },
         {
             "type": "file",
             "name": "archives/2021/05/index.html",
             "size": 14730,
-            "hash": "1c49209af8d4212b3c161409343d1adb41cada5f82c3aaaee2a73708b119a30b"
+            "hash": "cdb3f837fbb3f111d456e83f3ff82ca714fdba5e72dcf2fc50a46fbbc3e707c2"
         },
         {
             "type": "file",
             "name": "archives/2021/06/index.html",
             "size": 14146,
-            "hash": "fb1570c9781bad2f4fd0727b1bd5213cac5f9814b9ea01922624b00418aecfa0"
+            "hash": "4ca9b594909df0940259333a807e9c2a6d3862d3f48d7abb0b6e5e0622cea299"
         },
         {
             "type": "file",
             "name": "archives/2021/08/index.html",
             "size": 14140,
-            "hash": "c269c250d54d97f5bd65dda13e74d2683bcc9901c314dca077a9843987e78c78"
+            "hash": "6ecfa512375f2cc3dcc0f8cc213981e1da7bc342055918cb5d1cf291ff99df28"
         },
         {
             "type": "file",
             "name": "archives/2021/11/index.html",
             "size": 14673,
-            "hash": "24f1343dd6428e4f3a9b6457ec561876a4a0b382ce908ae73271f35e7b2123e3"
+            "hash": "9061976ae181e86637362ad1773b7454c46b2c25a9e9acb08a39e2394bbfd40c"
         },
         {
             "type": "file",
-            "name": "archives/2021/12/index.html",
-            "size": 14124,
-            "hash": "0af80018b4b020ad8350b05d1c784c3c72c841827860eb30327f4b9975b30988"
+            "name": "archives/2022/01/index.html",
+            "size": 14104,
+            "hash": "6e764ea29ab81b906cd8a555d966ea22b5a7b85e98c22631a2417ee5160214a0"
         },
         {
             "type": "file",
             "name": "archives/page/2/index.html",
-            "size": 15555,
-            "hash": "65f8c18f8904ba2630f6d12bb1edd6e5a9c480d23f174f3dc2a81f29f0cafa01"
+            "size": 16107,
+            "hash": "4ba900065d6f3c8ed08a2783d472be9cb8e61732b66100aab24970e7ad6a88b6"
+        },
+        {
+            "type": "file",
+            "name": "lib/font-awesome/css/all.min.css",
+            "size": 58578,
+            "hash": "876d023d9d10c97941b80c3b03e2a5b94631ff7a4af9cee5604a6a2d39718d84"
         },
         {
             "type": "file",
@@ -624,12 +680,6 @@
             "name": "lib/font-awesome/webfonts/fa-solid-900.woff2",
             "size": 79444,
             "hash": "7f4d3fd0a705dbf8403298aad91d5de6972e6b5d536068eba8b24954a5a0a8c7"
-        },
-        {
-            "type": "file",
-            "name": "lib/font-awesome/css/all.min.css",
-            "size": 58578,
-            "hash": "876d023d9d10c97941b80c3b03e2a5b94631ff7a4af9cee5604a6a2d39718d84"
         }
     ]
 }
